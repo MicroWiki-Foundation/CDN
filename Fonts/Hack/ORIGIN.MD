@@ -1,3 +1,1 @@
-- Original TTF files were from https://sourcefoundry.org/hack.
-- These were then hinted by `ttfautohint` version 1.8.3.
-- The hinted fonts were then compressed to the WOFF2 format with `woff2_compress`.
+- Compiled WOFF2s from source (https://github.com/MilesBHuff/Hack)
