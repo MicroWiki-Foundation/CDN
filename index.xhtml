@@ -10,7 +10,7 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="theme-color" content="#FFF" />
-		<meta name="background-color" content="#1D3C72 " />
+		<meta name="background-color" content="#1D3C72" />
 
 		<link rel="icon" type="image/svg+xml" href="/Images/favicon.svg" />
 		<link rel="icon shortcut" type="image/x-icon" href="/Images/favicon.ico" />
@@ -19,17 +19,32 @@
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<style type="text/css">
+
+			/* COLORS */
 			:root {
-				font-family: 'Roboto', 'sans-serif';
-				a {text-decoration: unset;}
-				a:hover {text-decoration: underline;}
+				--mw-border: #B7B7B7;
+				--mw-link: #3064BF;
+				--mw-link-visited: #6730BF;
+				--mw-brand: #1D3C72;
 			}
+			a {color: var(--mw-link);}
+			a:visited {color: var(--mw-link-visited);}
+			hr {color: var(--mw-border);}
+			h1, h1 a {color: var(--mw-brand);}
+
+			/* FONTS */
+			:root {font-family: 'Roboto', 'sans-serif';}
+			h1 {font-family: 'Montserrat', 'Roboto', 'sans-serif';}
+
+			/* LAYOUT */
 			header, section, footer {
 				margin: 1.5rem;
 			}
 			footer {
 				font-style: italic;
 			}
+
+			/* SPACING */
 			li h3,
 			li h4,
 			li h5,
@@ -40,6 +55,10 @@
 			h1, h2, h3, h4, h5, h6, ul, li {
 				margin: 0.75rem 0;
 			}
+
+			/* LINKS */
+			a {text-decoration: unset;}
+			a:hover {text-decoration: underline;}
 		</style>
 	</head>
 
