@@ -17,11 +17,28 @@
 
 		<meta name="robots" content="noindex, nofollow" />
 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<style type="text/css">
 			:root {
 				font-family: 'Roboto', 'sans-serif';
 				a {text-decoration: unset;}
 				a:hover {text-decoration: underline;}
+			}
+			header, section, footer {
+				margin: 1.5rem;
+			}
+			footer {
+				font-style: italic;
+			}
+			li h3,
+			li h4,
+			li h5,
+			li h6 {
+				display: inline-block;
+				margin: 0
+			}
+			h1, h2, h3, h4, h5, h6, ul, li {
+				margin: 0.75rem 0;
 			}
 		</style>
 	</head>
@@ -31,27 +48,32 @@
 			<h1><a href="/">MicroWiki CDN</a></h1>
 			<p>A simple GitHub Pages site that serves static content for MicroWiki.</p>
 		</header>
-
+		<hr/>
 		<section>
 			<article>
 				<h2>Assets</h2>
 				<ul>
 					<li>
-						Roboto (<a href="/Files/Roboto/LICENSE.TXT">License</a>)
+						<h3>Fonts</h3>
 						<ul>
-							<li><a href="/Files/Roboto/4.woff2">Regular</a></li>
-							<li><a href="/Files/Roboto/4i.woff2">Italic</a></li>
-							<li><a href="/Files/Roboto/7.woff2">Bold</a></li>
-							<li><a href="/Files/Roboto/7i.woff2">Bold Italic</a></li>
+							<li>
+								<h4>Roboto</h4> (<a href="/Files/Roboto/LICENSE.TXT">license</a>)
+								<ul>
+									<li><a href="/Files/Roboto/4.woff2">Regular</a></li>
+									<li><a href="/Files/Roboto/4i.woff2">Italic</a></li>
+									<li><a href="/Files/Roboto/7.woff2">Bold</a></li>
+									<li><a href="/Files/Roboto/7i.woff2">Bold Italic</a></li>
+								</ul>
+							</li>
 						</ul>
 					</li>
 				</ul>
 			</article>
 		</section>
-
+		<hr/>
 		<footer>
 			<span>
-				Unless otherwise stated, Copyright © from 2024 by MicroWiki per <a target="_blank" href="/COPYRIGHT.TXT">CC BY-SA 4</a>.
+				Unless otherwise stated, everything here is Copyright © from 2024 by MicroWiki per <a target="_blank" href="/COPYRIGHT.TXT">CC BY-SA 4</a>.
 			</span>&#32;<span>
 				(<a target="_blank" href="https://GitHub.com/MicroWiki-Foundation/CDN/tree/gh-pages">Source Code</a>)
 			</span>
