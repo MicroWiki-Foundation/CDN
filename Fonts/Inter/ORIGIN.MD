@@ -1,0 +1,1 @@
+- WOFF2 files were downloaded from Inter's GitHub repository: https://github.com/rsms/inter/releases/tag/v4.1
